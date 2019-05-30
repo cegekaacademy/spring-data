@@ -17,3 +17,7 @@ Add the following dependencies:
 Add the following property:<br />
 *spring.h2.console.enabled=true*
 
+After starting the Spring Boot application, the H2 DB will run in memory. It is accessible here:
+*http://localhost:8080/h2-console/* <br />
+The JDBC URL should be: *jdbc:h2:mem:testdb*<br />
+
