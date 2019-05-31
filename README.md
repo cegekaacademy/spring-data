@@ -28,3 +28,14 @@ We already have a request for storing a Category defined, so you can get inspire
 3. Implement a service for **Movies** in the service package, following the existing pattern for Categories
 4. Implement a controller for **Movies** with a POST method for storing a Movie
 
+example of body:
+
+{
+	"name":"Great Gatsby",
+	"score":"9",
+	"minutes":22.3,
+	"categories":[
+		{"name":"horror"},
+		{"name":"comedy"}
+		]
+}
